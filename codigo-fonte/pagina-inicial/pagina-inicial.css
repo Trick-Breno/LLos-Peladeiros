@@ -6,5 +6,16 @@ body {
 .container {
     width: 412px;
     height: 912px;
-    background-color: brown;
+    background-color: rgb(207, 10, 10);
+}
+
+.cabecalho {
+    background-color: yellow;
+    text-align: center;
+
+}
+
+.cabecalho img {
+    width: 129px;
+    height: 100px;
 }
