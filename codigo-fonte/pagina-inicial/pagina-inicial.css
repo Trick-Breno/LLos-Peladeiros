@@ -36,7 +36,9 @@ body {
 
 .linkPartida a{
     font-size: 12px;
+    font-weight: bolder;
     text-decoration: none;
+    
 }
 
 .linkPartida img {
