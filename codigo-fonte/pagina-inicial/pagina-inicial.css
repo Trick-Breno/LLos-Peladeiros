@@ -1,21 +1,45 @@
 body {
-    margin: 0px;
-
+    margin: 0;
 }
 
 .container {
     width: 380px;
-    height: 800px;
     background-color: rgb(207, 10, 10);
+    padding-bottom: 60px; /* Espaço para a barra de menu inferior */
 }
 
 .cabecalho {
     background-color: black;
     text-align: center;
-
 }
 
 .cabecalho img {
     width: 129px;
-    height: 100px;
+}
+
+.menuInferior {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 380px;
+    height: 50px; /* Definindo uma altura para a barra de menu */
+    background-color: rgb(236, 233, 233);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.2);
+}
+
+.linkPartida a {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linkPartida img {
+    display: block;
+    margin-bottom: 2px;
 }
