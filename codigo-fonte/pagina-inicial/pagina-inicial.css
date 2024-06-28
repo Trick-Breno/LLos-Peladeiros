@@ -39,19 +39,24 @@ body {
     text-decoration: none;
 }
 
+.menuInferior p {
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
 .menuInferior img {
     width: 40px;
     height: 40px;
+    
 
 }
 
-.linkEscalacao img {
-    width: 52px;
-    height: 30px;
-    margin-top: 10px;
+.linkEscalacao img, .linkJogadores img {
+    width: 48px;
+    height: 26px;
 }
 
 .menuInferior div {
-    margin: 5px;
+    margin: 7px;
 }
 
