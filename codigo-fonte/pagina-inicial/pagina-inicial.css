@@ -27,21 +27,23 @@ body {
     bottom: 0;
     width: 380px;
     background-color: rgb(231, 217, 217);
-    background-color: black;
+    background-color: yellow;
 }
 
 .menuInferior a {
     display: block;
     text-align: center;
-    font-size: 12px;
-    color: white;
+    font-family: "Roboto", sans-serif;
     font-weight: bolder;
+    font-size: 10px;
+    color: black;
     text-decoration: none;
 }
 
 .menuInferior p {
     margin-top: 7px;
     margin-bottom: 0;
+    background-color: white;
 }
 
 .menuInferior img {
@@ -49,11 +51,6 @@ body {
     height: 40px;
     
 
-}
-
-.linkEscalacao img, .linkJogadores img {
-    width: 48px;
-    height: 26px;
 }
 
 .menuInferior div {
