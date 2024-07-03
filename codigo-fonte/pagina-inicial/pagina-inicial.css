@@ -70,7 +70,22 @@ body {
     margin: 5px 15px;
 }
 
+.botaoConfirmar button{
+    border: none;
+    width: 100%;
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #038803;
+    color: white;
+    border-radius: 5px;
+}
 
+.botaoConfirmar {
+    margin: auto 10px 10px;
+
+
+}
 
 
 .menuInferior {
