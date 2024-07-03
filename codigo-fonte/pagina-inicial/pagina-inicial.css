@@ -4,11 +4,13 @@ body {
 }
 
 .container {
-    width: 380px;
-    height: 100%;
+    text-align: center;
+    width: 390px;
+    height: 844px;
     padding-bottom: 80px;
-    background-color: rgb(207, 10, 10);
+    background-color: rgb(207, 10, 10) ;
 }
+
 
 .cabecalho {
     background-color: black;
@@ -20,12 +22,63 @@ body {
     width: 129px;
 }
 
+.sombraVermelha {
+    display: flex;
+    flex-direction: column;
+    margin: auto; 
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: #921A1A;
+    width: 350px;
+    height: 611px;
+}
+
+.sombraVermelha h1 {
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.conteudo {
+    height: 100%;
+    margin: 15px;
+    margin-top: 0px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.jogador {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #D9D9D9;
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.nomeJogador p, .selecionarTime select {
+    font-family: "poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 5px 15px;
+}
+
+
+
 .menuInferior {
     display: flex;
     position: fixed;
     z-index: 1000;
     bottom: 0;
-    width: 380px;
+    width: 390px;
     background-color: white;
 }
 
