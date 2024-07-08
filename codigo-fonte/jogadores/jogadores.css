@@ -33,14 +33,76 @@ body {
     height: 611px;
 }
 
-.sombraVermelha h1 {
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#input-nome {
+    margin: 15px 15px 7px;
+    border-radius: 5px;
+    border: 1px;
+    padding: 6px;
+}
+
+#input-nome input {
+    text-align: center;
+}
+
+.tipoJogador {
+    margin: 0px 15px;
+    display: flex;
+    gap: 5px;
+}
+
+.inputOpcao {
+    display: none;
+}
+
+.labelOpcao {
+    display: inline-block;
+    font-family: "poppins", sans-serif;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 54px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+
+    transition: background-color 0.3s;
+}
+
+.inputOpcao:checked + .labelOpcao {
+    background-color: #007BFF;
+    color: white;
+    border-color: #007BFF;
+
+
+}
+
+.adcJogador {
+    margin: 7px 15px 20px;
+    font-family: "poppins", sans-serif;
+    background-color: #038803;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+/*.sombraVermelha h1 {
     font-family: "poppins", sans-serif;
     font-size: 20px;
     background-color: white;
     color: black;
     margin: 15px;
     border-radius: 5px;
-}
+}*/
 
 .conteudo {
     height: 100%;
@@ -55,38 +117,34 @@ body {
 
 .jogador {
     display: flex;
-    justify-content: space-between;
     background-color: #8553511c;
     margin: 10px;
     margin-top: 10px;
     border-radius: 5px;
+    justify-content: space-between;
+
 }
 
-.nomeJogador p, .selecionarTime select {
+.nomeJogador p, .convocar, .excluir {
     font-family: "poppins", sans-serif;
     font-size: 14;
     font-weight: 600;
     border-radius: 5px;
-    margin: 5px 15px;
+    margin: 10px;
 }
 
-.botaoConfirmar button{
-    border: none;
-    width: 100%;
-    font-family: "poppins";
-    font-weight: bold;
-    font-size: 18px;
-    background-color: #038803;
+.convocar {
+    border: 1px solid;
+    background-color: #017501;
     color: white;
-    border-radius: 5px;
 }
 
-.botaoConfirmar {
-    margin: auto 10px 10px;
-
+.excluir {
+    background-color: black;
+    color: white;
+    border: 1px solid;
 
 }
-
 
 .menuInferior {
     border-top: 1px solid #ccc;

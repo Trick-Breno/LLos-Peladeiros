@@ -26,27 +26,61 @@
 
         <section>
             <div class="sombraVermelha">
-                <h1> ESCALAR TIMES</h1>
+                <form action="/submit" method="post">
+                    <input type="text" id="input-nome" placeholder="Digite o nome do jogador" required>
+                    <div class="tipoJogador">
+                        <input type="radio" id="opcaoLinha" name="tipoJogador" class="inputOpcao">
+                        <label for="opcaoLinha" class="labelOpcao">Linha</label>
+
+                        <input type="radio" id="opcaoGoleiro" name="tipoJogador" class="inputOpcao">
+                        <label for="opcaoGoleiro" class="labelOpcao">Goleiro</label>
+                    </div>
+                    <button type="submit" class="adcJogador">Adicionar jogador</button>
+                </form>
 
                 <div class="conteudo">
                     <div class="jogador">
+
                         <div class="nomeJogador">
                             <p>Jogador 1 </p>
                         </div>
-                        <div class="selecionarTime">
-                            <select name="opcaoTime" id="opcaoTime">
-                                <option value="">Escolher Time</option>
-                                <option value="Real Madrid">Real Madrid</option>
-                                <option value="Barcelona">Barcelona</option>
-                                <option value="Milan">Milan</option>
-                                <option value="Inter de Milão">Inter de Milão</option>
-                            </select>
+
+                        <div class="convocarJogador">
+                            <button id="convocar" class="convocar">Convocar</button>
+                        </div>
+                        
+                        <div class="excluirJogador">
+                            <button id="exluir" class="excluir">Excluir </button>
                         </div>
                     </div>
-                    <div class="botaoConfirmar">
-                        <button>Confirmar Escalação</button>
-                    </div>
+                    <div class="jogador">
+                        
+                        <div class="nomeJogador">
+                            <p>Juninho Campos </p>
+                        </div>
 
+                        <div class="convocarJogador">
+                            <button id="convocar" class="convocar">Convocar</button>
+                        </div>
+                        
+                        <div class="excluirJogador">
+                            <button id="exluir" class="excluir">Excluir </button>
+                        </div>
+                    </div>
+                    <div class="jogador">
+                        
+                        <div class="nomeJogador">
+                            <p>Nin</p>
+                        </div>
+
+                        <div class="convocarJogador">
+                            <button id="convocar" class="convocar">Convocar</button>
+                        </div>
+                        
+                        <div class="excluirJogador">
+                            <button id="exluir" class="excluir">Excluir </button>
+                        </div>
+                    </div>
                 </div>
     
             </div>
@@ -72,13 +106,13 @@
                 </div>
 
                 <div class="linkEstatisticaDia">
-                    <a href="#estatistica"><img src="../imagens/menu-estatisticas-dia.png" alt="estatistica"></a>
-                    <p><a href="#estatistica">TABELA/DIA</a></p>
+                    <a href="#estatistica"><img src="../imagens/menu-ranking.png" alt="estatistica"></a>
+                    <p><a href="#estatistica">RANKING/DIA</a></p>
                 </div>
 
                 <div class="linkEstatisticaGeral">
-                    <a href="#estatistica"><img src="../imagens/menu-estatisticas-geral.png" alt="estatistica"></a>
-                    <p><a href="#estatistica">TABELA/GERAL</a></p>
+                    <a href="#estatistica"><img src="../imagens/menu-ranking.png" alt="estatistica"></a>
+                    <p><a href="#estatistica">RANKING/GERAL</a></p>
                 </div>
 
             </div>
