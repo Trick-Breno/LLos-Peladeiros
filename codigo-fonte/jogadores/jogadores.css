@@ -118,7 +118,7 @@ form {
 .jogador {
     display: flex;
     background-color: #8553511c;
-    margin: 10px;
+    margin: 10px 10px 0px;
     margin-top: 10px;
     border-radius: 5px;
     justify-content: space-between;
@@ -127,19 +127,21 @@ form {
 
 .nomeJogador p, .convocar, .excluir {
     font-family: "poppins", sans-serif;
-    font-size: 14;
+    font-size: 14px;
     font-weight: 600;
     border-radius: 5px;
     margin: 10px;
 }
 
 .convocar {
+    font-size: 12px;
     border: 1px solid;
     background-color: #017501;
     color: white;
 }
 
 .excluir {
+    font-size: 12px;
     background-color: black;
     color: white;
     border: 1px solid;
