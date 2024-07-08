@@ -70,6 +70,10 @@ body {
     margin: 5px 15px;
 }
 
+.selecionarTime select {
+    font-size: 12px;
+}
+
 .botaoConfirmar button{
     border: none;
     width: 100%;
