@@ -112,7 +112,7 @@ form {
     font-family: "poppins", sans-serif;
     font-size: 16px;
     font-weight:bold;
-    margin: 5px auto 0px;
+    margin: 10px auto 0px;
 
 }
 
@@ -120,7 +120,6 @@ form {
     display: flex;
     background-color: #8553511c;
     margin: 10px 10px 0px;
-    margin-top: 10px;
     border-radius: 5px;
     justify-content: space-between;
 
