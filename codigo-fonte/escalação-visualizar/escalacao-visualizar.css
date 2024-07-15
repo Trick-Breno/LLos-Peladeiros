@@ -25,42 +25,70 @@ body {
     height: 75px;
 }
 
-section h1 {
-    font-family: "poppins", sans-serif;
-    font-size: 20px;
-    background-color: white;
-    color: black;
-    margin: 15px;
-    border-radius: 5px;
-}
 
-.conteudo {
-    margin: 15px;
-    margin-top: 0px;
-    background-color: white;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
 
-}
-
-.jogador {
+.milan {
     display: flex;
     justify-content: space-between;
-    background-color: #8553511c;
+    background-color: #000000;
     margin: 10px;
     margin-top: 10px;
     border-radius: 5px;
+    gap: 0px;
 }
 
-.nomeJogador p, .selecionarTime select {
-    font-family: "poppins", sans-serif;
-    font-size: 14;
-    font-weight: 600;
-    border-radius: 5px;
-    margin: 5px 15px;
+.milan-esquerdo img{
+    height: 100%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+
 }
 
+.milan-direito{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+
+
+
+}
+
+.milan-direito-superior{
+    display: flex;
+}
+.milan-direito-superior img {
+    margin: 5px 5px 0px 5px;
+    border-top-right-radius: 3px;
+    height: 70px;
+
+}
+
+.milan-direito-superior p{
+    font-size: 18px;
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.milan-direito-inferior {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 13px;
+
+}
+.milan-direito-inferior p{
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 14px;
+    margin : 0px;
+}
 
 
 .menuInferior {
