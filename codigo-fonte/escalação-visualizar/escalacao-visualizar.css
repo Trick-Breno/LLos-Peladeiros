@@ -34,16 +34,16 @@ body {
     margin: 10px;
     margin-top: 30px;
     border: 1px solid;
-    border-color: #cf2c2c57;
-    border-radius: 5px;
+    border-color: #18161657;
+    border-radius: 10px;
     gap: 0px;
 }
 
 .milan-esquerdo img{
     width: 190px;
     height: 100%;  
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 
 }
 
@@ -54,7 +54,9 @@ body {
     flex-direction: column;
     margin: 0px;
     padding: 0px;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: 1px solid;
+
 
 
 }
