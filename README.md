@@ -1,6 +1,6 @@
-# Los Peladeiros
+# LLos Peladeiros
 
-**Los Peladeiros** é um site criado para acompanhar o andamento da "pelada" (jogo informal de futebol) em que participo. Este site tem como objetivo substituir o método atual de gerenciamento com papel, tornando a organização das partidas mais eficiente e atrativa.
+**LLos Peladeiros** é um site criado para acompanhar o andamento da "pelada" (jogo informal de futebol) em que participo. Este site tem como objetivo substituir o método atual de gerenciamento com papel, tornando a organização das partidas mais eficiente e atrativa.
 
 ### Funcionalidades
 
