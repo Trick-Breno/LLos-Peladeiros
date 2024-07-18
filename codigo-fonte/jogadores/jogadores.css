@@ -8,7 +8,7 @@ body {
     width: 390px;
     height: 844px;
     padding-bottom: 80px;
-    background-color: #cfcece;
+    background-color: #c7cadb;
 }
 
 
@@ -99,7 +99,7 @@ form {
     border: 1px solid;
     display: flex;
     flex-direction: column;
-    background-color: #cfcece;
+    background-color: #ffffff;
 
 }
 
@@ -113,9 +113,11 @@ form {
 
 .jogador {
     display: flex;
-    background-color: #ffffff;
+    background-color: #f5f4f4;
     margin: 10px 0px 0px;
     border-radius: 5px;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.192);
     justify-content: space-between;
 }
 
