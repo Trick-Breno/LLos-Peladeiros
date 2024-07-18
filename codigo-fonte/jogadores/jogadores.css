@@ -8,7 +8,7 @@ body {
     width: 390px;
     height: 844px;
     padding-bottom: 80px;
-    background-color: #ebeaea;
+    background-color: #cfcece;
 }
 
 
@@ -93,13 +93,13 @@ form {
 
 .conteudo {
     margin: 10px;
-    margin-top: 0px;
+    margin-top: 30px;
     background-color: white;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+    border-radius: 5px;
+    border: 1px solid;
     display: flex;
     flex-direction: column;
-    background-color: #ebeaea;
+    background-color: #cfcece;
 
 }
 
@@ -109,7 +109,6 @@ form {
     font-size: 18px;
     font-weight:bold;
     margin: 10px auto 0px;
-
 }
 
 .jogador {
@@ -128,7 +127,7 @@ form {
 
 .nomeJogador p{
     font-family: "poppins", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     margin: 10px;
 }
