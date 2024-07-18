@@ -34,6 +34,135 @@ body {
     height: 611px;
 }
 
+.conteudo {
+    height: 100%;
+    margin: 15px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 611px;
+}
+
+.conteudo h1 {
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+}
+
+.jogador {
+    display: flex;
+    justify-content: space-between;
+    background-color: #8553511c;
+    margin: 10px;
+    margin-top: 10px;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.nomeJogador p, .selecionarTime select {
+    font-family: "poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 5px 15px;
+}
+
+.selecionarTime select {
+    font-size: 12px;
+}
+
+.botaoConfirmar {
+    margin: auto 10px 10px;
+    
+}
+ 
+.botaoConfirmar button{
+    border: none;
+    width: 100%;
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #038803;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.menuInferior {
+    border-top: 1px solid #ccc;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    width: 390px;
+    background-color: white;
+}
+
+.menuInferior a {
+    display: block;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 8px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menuInferior p {
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+
+.menuInferior img {
+    width: 28px;
+    height: 28px;
+    
+
+}
+
+.menuInferior div {
+    margin: 7px;
+    margin-right: 27px;
+}
+
+
+/*
+body {
+    margin: 0px;
+
+}
+
+.container {
+    text-align: center;
+    width: 390px;
+    height: 844px;
+    padding-bottom: 80px;
+    background-color: rgb(207, 10, 10) ;
+}
+
+
+.cabecalho {
+    background-color: black;
+    text-align: center;
+
+}
+
+.cabecalho img {
+    width: 95px;
+    height: 75px;
+}
+
+.sombraVermelha {
+    display: flex;
+    flex-direction: column;
+    margin: auto; 
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: #921A1A;
+    width: 350px;
+    height: 611px;
+}
+
 .sombraVermelha h1 {
     font-family: "poppins", sans-serif;
     font-size: 20px;
@@ -130,3 +259,4 @@ body {
     margin-right: 27px;
 }
 
+*/
