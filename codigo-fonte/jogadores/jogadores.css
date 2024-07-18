@@ -8,7 +8,7 @@ body {
     width: 390px;
     height: 844px;
     padding-bottom: 80px;
-    background-color: #CF0A0A;
+    background-color: #ebeaea;
 }
 
 
@@ -99,13 +99,12 @@ form {
     border-bottom: 1px solid;
     display: flex;
     flex-direction: column;
-    background-color: #CF0A0A;
+    background-color: #ebeaea;
 
 }
 
 
 .conteudo h2 {
-    color: white;
     font-family: "poppins", sans-serif;
     font-size: 18px;
     font-weight:bold;
