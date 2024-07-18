@@ -10,7 +10,6 @@ body {
     width: 390px;
     min-height: 844px;
     padding-bottom: 70px;
-    background-color: rgb(207, 10, 10) ;
 }
 
 
@@ -25,19 +24,20 @@ body {
     height: 75px;
 }
 
-
-
 .time {
     display: flex;
     justify-content: space-between;
     background-color: #000000;
     margin: 10px;
-    margin-top: 30px;
     border: 1px solid;
     border-color: #18161657;
     border-radius: 10px;
-    gap: 0px;
 }
+
+.timeMilan {
+    margin-top: 20px;
+}
+
 
 .time-esquerdo img{
     width: 190px;

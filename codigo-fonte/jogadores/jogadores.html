@@ -25,18 +25,20 @@
         </header>
 
         <section>
-            <div class="sombraVermelha">
-                <form action="/submit" method="post">
-                    <input type="text" id="input-nome" placeholder="Digite o nome do jogador" required>
-                    <div class="tipoJogador">
-                        <input type="radio" id="opcaoLinha" name="tipoJogador" class="inputOpcao">
-                        <label for="opcaoLinha" class="labelOpcao">Linha</label>
-
-                        <input type="radio" id="opcaoGoleiro" name="tipoJogador" class="inputOpcao">
-                        <label for="opcaoGoleiro" class="labelOpcao">Goleiro</label>
-                    </div>
-                    <button type="submit" class="adcJogador">Adicionar jogador</button>
-                </form>
+                <div class="novoJogadorForm">
+                    <form action="/submit" method="post">
+                        <input type="text" id="input-nome" placeholder="Digite o nome do jogador" required>
+                        <div class="tipoJogador">
+                            <input type="radio" id="opcaoLinha" name="tipoJogador" class="inputOpcao">
+                            <label for="opcaoLinha" class="labelOpcao">Linha</label>
+    
+                            <input type="radio" id="opcaoGoleiro" name="tipoJogador" class="inputOpcao">
+                            <label for="opcaoGoleiro" class="labelOpcao">Goleiro</label>
+                        </div>
+                        <button type="submit" class="botaoadcJogador">Adicionar jogador</button>
+                    </form>
+    
+                </div>
 
                 <div class="conteudo">
                     <h2>Linha</h2>
@@ -115,9 +117,6 @@
                     </div>
 
                 </div>
-    
-            </div>
-
         </section>
         <nav>
             <div class="menuInferior">
