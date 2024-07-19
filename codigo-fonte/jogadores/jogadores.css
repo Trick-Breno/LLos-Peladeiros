@@ -8,7 +8,7 @@ body {
     width: 390px;
     height: 844px;
     padding-bottom: 80px;
-    background-color: #eceef5;
+    background-color: #EEF4F6;
 }
 
 
@@ -37,10 +37,10 @@ form {
 #input-nome {
     background-color: #ffffff;
     margin: 15px 10px 7px;
-    border-radius: 5px;
-    border: 1px solid;
+    border-radius: 10px;
+    border: none;
     border-color: #161616a2;
-    padding: 8px;
+    padding: 12px;
 }
 
 .tipoJogador {
@@ -57,10 +57,10 @@ form {
     display: inline-block;
     font-family: "poppins", sans-serif;
     background-color: white;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
-    padding: 3px 66.5px;
-    border: 1px solid;
+    padding: 3px 30px;
+    border:none;
     border-color: #161616a2;
     border-radius: 5px;
     cursor: pointer;
@@ -83,7 +83,7 @@ form {
     font-family: "poppins", sans-serif;
     background-color: #038803;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bolder;
     border: none;
     border-radius: 5px;
@@ -92,11 +92,9 @@ form {
 }
 
 .conteudo {
-    margin: 10px;
-    margin-top: 30px;
+    margin: 30px 10px 0px;
+    border-radius: 10px;
     background-color: white;
-    border-radius: 5px;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
@@ -113,9 +111,9 @@ form {
 
 .jogador {
     display: flex;
-    background-color: #f3eeee;
-    margin: 10px 0px 0px;
-    border-color: rgba(0, 0, 0, 0.192);
+    background-color: #EEF4F6;
+    margin: 10px 10px 0px;
+    border-radius: 7px;
     justify-content: space-between;
 }
 
@@ -129,7 +127,8 @@ form {
     font-family: "poppins", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    margin: 10px;
+    margin: 5px;
+    margin-left: 10px;
 }
 
 .botoes {
@@ -139,7 +138,7 @@ form {
 .convocar, .excluir {
     font-weight: 600;
     border-radius: 5px;
-    margin: 10px 10px 10px 0px;
+    margin: 5px 10px 5px 0px;
     font-family: "poppins", sans-serif;
     font-size: 12px;
     border: 1px solid;
