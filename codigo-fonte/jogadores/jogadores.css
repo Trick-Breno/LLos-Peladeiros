@@ -8,7 +8,7 @@ body {
     width: 390px;
     height: 844px;
     padding-bottom: 80px;
-    background-color: #660000  ;
+    background-color: #B22222  ;
 }
 
 
@@ -96,7 +96,7 @@ form {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    background-color: #AA3939   ;
+    background-color: #8B0000    ;
 
 }
 
@@ -111,7 +111,7 @@ form {
 
 .jogador {
     display: flex;
-    background-color: #992222     ;
+    background-color: #992222      ;
     margin: 10px 10px 0px;
     border-radius: 7px;
     justify-content: space-between;
