@@ -35,12 +35,17 @@ form {
 }
 
 #input-nome {
-    background-color: #ffffff;
+    background-color: #9C2727;
+    color: white;
     margin: 15px 10px 7px;
     border-radius: 10px;
-    border: none;
-    border-color: #161616a2;
+    border: 1px solid;
+    border-color: #8B0000 ;
     padding: 12px;
+}
+
+#input-nome::placeholder {
+    color: #ffffff ;
 }
 
 .tipoJogador {
@@ -56,7 +61,8 @@ form {
 .labelOpcao {
     display: inline-block;
     font-family: "poppins", sans-serif;
-    background-color: white;
+    background-color: #8B0000 ;
+    color: white;
     font-size: 14px;
     font-weight: 500;
     padding: 3px 30px;
@@ -70,9 +76,8 @@ form {
 }
 
 .inputOpcao:checked + .labelOpcao {
-    background-color: #007BFF;
+    background-color: #e20505;
     color: white;
-    border-color: #007BFF;
 
 
 }
@@ -81,7 +86,7 @@ form {
     margin: 7px 10px 30px;
     padding: 5px;
     font-family: "poppins", sans-serif;
-    background-color: #038803;
+    background-color: #FF8C00    ;
     color: white;
     font-size: 16px;
     font-weight: bolder;
@@ -142,14 +147,14 @@ form {
     margin: 5px 10px 5px 0px;
     font-family: "poppins", sans-serif;
     font-size: 12px;
-    border: 1px solid;
-    background-color: #017501;
+    border: none;
+    background-color: #FF4500   ;
     color: white;
     cursor: pointer;
 }
 
 .excluir {
-    background-color: black;
+    background-color: #696969  ;
 }
 
 .menuInferior {
