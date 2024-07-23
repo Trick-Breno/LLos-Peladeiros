@@ -43,6 +43,35 @@ body {
     display: flex;
 }
 
+.time-casa-aovivo img {
+    width: 60px;
+}
+
+.time-casa-aovivo p {
+    margin: 10px;
+    margin-top: 0px;
+    font-family: 'poppins';
+    font-size: 16px;
+    color: white;
+
+}
+
+.placar-casa-aovivo p{
+    font-family: 'poppins';
+    font-size: 38px;
+    color: white;
+    margin: 0px 10px 15px;
+
+}
+
+.divisor-x-aovivo p {
+    font-family: 'poppins';
+    font-size: 24px;
+    color: white;
+    margin: 10px 16px  ;
+
+}
+
 .sombraVermelha {
     display: flex;
     flex-direction: column;
