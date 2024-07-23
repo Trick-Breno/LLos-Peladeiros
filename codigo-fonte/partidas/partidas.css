@@ -8,7 +8,7 @@ body {
     min-width: 390px;
     min-height: 844px;
     padding-bottom: 80px;
-    background-color: rgb(207, 10, 10) ;
+    background-color: #8B0000;
 }
 
 
@@ -25,7 +25,7 @@ body {
 
 .conteudoPartidaAovivo{
     margin: 10px;
-    background-color: #B22222;
+    background-color: rgb(207, 10, 10) ;
     border-radius: 10px;
 
 }
