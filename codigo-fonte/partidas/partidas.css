@@ -40,7 +40,7 @@ body {
 }
 
 .pai-timeplacar-aovivo{
-    
+    display: flex;
 }
 
 .sombraVermelha {
