@@ -8,7 +8,7 @@ body {
     min-width: 390px;
     min-height: 844px;
     padding-bottom: 80px;
-    background-color: #3f0404;
+    background-color: #420404;
 }
 
 
@@ -24,7 +24,7 @@ body {
 }
 
 .partida-aovivo{
-    margin: 10px;
+    margin: 35px 10px;
     background-color: rgb(207, 10, 10) ;
     border-radius: 10px;
 
@@ -40,11 +40,13 @@ body {
 }
 
 .pai-timeplacar-aovivo{
+    justify-content: space-between;
     display: flex;
 }
 
 .time-casa-aovivo img {
     width: 60px;
+    height: 60px;
 }
 
 .time-casa-aovivo p {
