@@ -23,6 +23,23 @@ body {
     height: 75px;
 }
 
+.conteudoPartidaAovivo{
+    margin: 10px;
+    background-color: #B22222;
+    border-radius: 10px;
+
+}
+
+.descricaoAovivo {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-family: 'poppins';
+    font-size: 14px;
+    color: white;
+
+}
+
 .sombraVermelha {
     display: flex;
     flex-direction: column;

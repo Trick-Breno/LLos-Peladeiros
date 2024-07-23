@@ -8,12 +8,12 @@ body {
     width: 390px;
     height: 844px;
     padding-bottom: 80px;
-    background-color: #8B0000;
+    background-color: black;
 }
 
 
 .cabecalho {
-    background-color: black;
+    background-color: #B22222  ;
     text-align: center;
 
 }
@@ -101,7 +101,7 @@ form {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(207, 10, 10) ;
+    background-color: #B22222  ;
 
 }
 
