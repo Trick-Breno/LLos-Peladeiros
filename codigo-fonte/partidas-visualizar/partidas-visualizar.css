@@ -13,7 +13,7 @@ body {
 
 
 .cabecalho {
-    background-color: rgb(31, 19, 19) ;
+    background-color: rgb(207, 10, 10) ;
     text-align: center;
 
 }
@@ -24,10 +24,8 @@ body {
 }
 
 .partida-aovivo{
-    display: flex;
-    flex-direction: column;
     margin: 35px 10px;
-    background-color: rgb(184, 8, 8) ;
+    background-color: rgb(207, 10, 10) ;
     border-radius: 10px;
 
 }
@@ -44,8 +42,6 @@ body {
 .divref-timeplacar-aovivo{
     justify-content: space-between;
     display: flex;
-    border-bottom: 1px solid;
-    border-color: #3f161631;
 }
 
 .time-casa-aovivo img {
@@ -78,58 +74,71 @@ body {
 
 }
 
-.marcar-gol {
+.sombraVermelha {
+    display: flex;
+    flex-direction: column;
+    margin: auto; 
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: #921A1A;
+    width: 350px;
+    height: 611px;
+}
+
+.sombraVermelha h1 {
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.conteudo {
+    height: 100%;
+    margin: 15px;
+    margin-top: 0px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.jogador {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid;
-    border-color: #3f161631;
-}
-
-.form-marcar-gol {
+    background-color: #8553511c;
     margin: 10px;
-    
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
-.form-marcar-gol select {
-    border-radius: 5px;
-    font-family: 'poppins';
+.nomeJogador p, .selecionarTime select {
+    font-family: "poppins", sans-serif;
+    font-size: 14;
     font-weight: 600;
-    font-size: 12px;
-
-}
-
-.form-marcar-gol button {
     border-radius: 5px;
+    margin: 5px 15px;
+}
+
+.botaoConfirmar button{
     border: none;
-    font-family: 'poppins';
-    background-color: #ff4400;
-    color: white;
+    width: 100%;
+    font-family: "poppins";
     font-weight: bold;
-    font-size: 12px;
-}
-
-.exibir-autor-gol {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px ;
-    font-family: 'poppins';
-    font-size: 12px;
+    font-size: 18px;
+    background-color: #038803;
     color: white;
-}
-
-.exibir-autor-gol p {
-    margin: 0px;
-}
-.encerrar-partida {
-    margin: 10px;
-    background: #ff4400;
-    color: white;
-    font-family: 'poppins';
-    font-weight: bold;
-    font-size: 16px;
     border-radius: 5px;
-    border: none;
 }
+
+.botaoConfirmar {
+    margin: auto 10px 10px;
+
+
+}
+
 
 .menuInferior {
     border-top: 1px solid #ccc;
