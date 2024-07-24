@@ -13,7 +13,7 @@ body {
 
 
 .cabecalho {
-    background-color: rgb(31, 19, 19) ;
+    background-color: rgb(32, 23, 23) ;
     text-align: center;
 
 }
@@ -95,6 +95,8 @@ body {
     font-family: 'poppins';
     font-weight: 600;
     font-size: 12px;
+    border: none;
+
 
 }
 
