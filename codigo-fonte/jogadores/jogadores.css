@@ -115,7 +115,7 @@ form {
 
 .jogador {
     display: flex;
-    background-color: #9c2727      ;
+    background-color: #9c2727;
     margin: 10px 10px 0px;
     border-radius: 7px;
     justify-content: space-between;
@@ -163,7 +163,7 @@ form {
     z-index: 1000;
     bottom: 0;
     width: 390px;
-    background-color: white;
+    background-color: rgb(32, 23, 23) ;
 }
 
 .menuInferior a {
@@ -172,7 +172,7 @@ form {
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
     font-size: 8px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
