@@ -101,7 +101,6 @@ form {
     display: flex;
     flex-direction: column;
     background-color: rgb(207, 10, 10);
-    box-shadow: rgba(179, 88, 88, 0.35) 0px 5px 15px;
 }
 
 
