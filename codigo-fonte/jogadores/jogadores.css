@@ -13,7 +13,7 @@ body {
 
 
 .cabecalho {
-    background-color: rgb(207, 10, 10) ;
+    background-color: rgb(32, 23, 23) ;
     text-align: center;
 
 }
@@ -35,17 +35,16 @@ form {
 }
 
 #input-nome {
-    background-color: #9C2727;
+    background-color: #f1c7c7;
     color: white;
     margin: 15px 10px 7px;
     border-radius: 10px;
-    border: 1px solid;
-    border-color: #8B0000 ;
+    border: none;
     padding: 12px;
 }
 
 #input-nome::placeholder {
-    color: #ffffff ;
+    color: #000000 ;
 }
 
 .tipoJogador {
@@ -86,7 +85,7 @@ form {
     margin: 7px 10px 30px;
     padding: 5px;
     font-family: "poppins", sans-serif;
-    background-color: #FF8C00    ;
+    background-color: #FF4500   ;
     color: white;
     font-size: 16px;
     font-weight: bolder;
