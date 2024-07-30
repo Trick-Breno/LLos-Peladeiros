@@ -9,6 +9,7 @@ body {
     padding-bottom: 80px;
     height: 844px;
     background-color: #912A27;
+    padding: 0px;
 
 }
 
@@ -28,7 +29,9 @@ body {
     display: flex;
     flex-direction: column;
     height: 844px;
-    border-radius: 15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px ;
+
 }
 
 h1 {
@@ -51,7 +54,7 @@ form {
 
 .toggle-container {
     display: flex;
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 0px 15px 10px;
     overflow: hidden;
 }
@@ -82,7 +85,7 @@ form {
 #input-nome {
     background-color: #393939;
     color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
     padding: 12px;
     margin: 10px 15px;
@@ -103,14 +106,14 @@ form {
     font-size: 18px;
     font-weight: bolder;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
 
 }
 
 .conteudo {
     margin: 30px 15px 0px;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     background-color: #393939;
@@ -129,7 +132,7 @@ form {
     display: flex;
     background-color: #1D1D1D;
     margin: 10px 10px 0px;
-    border-radius: 7px;
+    border-radius: 5px;
     justify-content: space-between;
 }
 
@@ -154,7 +157,7 @@ form {
 
 .convocar, .excluir {
     font-weight: 600;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 5px 10px 5px 0px;
     font-family: "poppins", sans-serif;
     font-size: 12px;
