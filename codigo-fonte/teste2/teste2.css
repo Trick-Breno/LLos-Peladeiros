@@ -1,25 +1,47 @@
-.radio-buttons {
+body {
+    background-color: #1D1D1D;
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.radio-input {
-    display: none;
+.toggle-container {
+    display: flex;
+    background-color: #333;
+    border-radius: 25px;
+    overflow: hidden;
 }
 
-.radio-label {
-    display: inline-block;
-    padding: 5px 15px;
-    border: 1px solid #000;
-    border-radius: 4px;
-    background-color: #fff;
+.toggle-button {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    padding: 10px 20px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 0;
 }
 
+.toggle-button:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
 
-.radio-input:checked + .radio-label {
-    background-color: #007BFF;
-    color: #fff;
-    border-color: #007BFF;
+.toggle-button:last-child {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.toggle-button.active {
+    background-color: #912A27;
+    color: #FFF;
+}
+
+.toggle-button:not(.active):hover {
+    background-color: #444;
 }

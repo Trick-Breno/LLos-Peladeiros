@@ -29,14 +29,13 @@
                 <h1>Jogadores</h1>
                 <div class="novoJogadorForm">
                     <form action="/submit" method="post">
-                        <input type="text" id="input-nome" placeholder="Digite o nome do jogador" required>
-                        <div class="tipoJogador">
-                            <input type="radio" id="opcaoLinha" name="tipoJogador" class="inputOpcao">
-                            <label for="opcaoLinha" class="labelOpcao">Linha</label>
-
-                            <input type="radio" id="opcaoGoleiro" name="tipoJogador" class="inputOpcao">
-                            <label for="opcaoGoleiro" class="labelOpcao">Goleiro</label>
+                        <div class="toggle-container">
+                            <input type="radio" id="linha" name="toggle" checked>
+                            <label for="linha" class="toggle-label">Linha</label>
+                            <input type="radio" id="goleiro" name="toggle">
+                            <label for="goleiro" class="toggle-label">Goleiro</label>
                         </div>
+                        <input type="text" id="input-nome" placeholder="Digite o nome do jogador" required>
                         <button type="submit" class="botaoadcJogador">Adicionar jogador</button>
                     </form>
 
