@@ -6,27 +6,42 @@ body {
 .container {
     text-align: center;
     width: 390px;
-    height: 844px;
     padding-bottom: 80px;
-    background-color: #420404;
+    height: 844px;
+    background-color: #912A27;
+
 }
 
 
 .cabecalho {
-    background-color: rgb(32, 23, 23) ;
     text-align: center;
 
 }
 
 .cabecalho img {
-    width: 95px;
-    height: 75px;
+    width: 89px;
+    height: 74px;
+}
+
+.content {
+    background-color: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    height: 844px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    font-family: 'poppins';
+    text-align: left;
+    margin: 15px ;
 }
 
 .novoJogadorForm {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
 }
 
 form {
@@ -35,20 +50,20 @@ form {
 }
 
 #input-nome {
-    background-color: #f1c7c7;
+    background-color: #393939;
     color: white;
-    margin: 15px 10px 7px;
     border-radius: 10px;
     border: none;
     padding: 12px;
+    margin: 0px 15px 10px;
 }
 
 #input-nome::placeholder {
-    color: #000000 ;
+    color: white ;
 }
 
 .tipoJogador {
-    margin: 0px 10px;
+    margin: 10px 15px;
     display: flex;
     gap: 5px;
 }
@@ -60,10 +75,9 @@ form {
 .labelOpcao {
     display: inline-block;
     font-family: "poppins", sans-serif;
-    background-color: #8B0000 ;
+    background-color: #393939 ;
     color: white;
     font-size: 14px;
-    font-weight: 500;
     padding: 3px 30px;
     border:none;
     border-color: #161616a2;
@@ -75,17 +89,17 @@ form {
 }
 
 .inputOpcao:checked + .labelOpcao {
-    background-color: #e20505;
+    background-color: #912A27;
     color: white;
 
 
 }
 
 .botaoadcJogador {
-    margin: 7px 10px 30px;
+    margin: 10px 15px 30px;
     padding: 5px;
     font-family: "poppins", sans-serif;
-    background-color: #FF4500   ;
+    background-color: #912A27   ;
     color: white;
     font-size: 16px;
     font-weight: bolder;
@@ -96,11 +110,11 @@ form {
 }
 
 .conteudo {
-    margin: 30px 10px 0px;
+    margin: 30px 15px 0px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(207, 10, 10);
+    background-color: #393939;
 }
 
 
@@ -114,7 +128,7 @@ form {
 
 .jogador {
     display: flex;
-    background-color: #9c2727;
+    background-color: #1D1D1D;
     margin: 10px 10px 0px;
     border-radius: 7px;
     justify-content: space-between;
@@ -146,13 +160,13 @@ form {
     font-family: "poppins", sans-serif;
     font-size: 12px;
     border: none;
-    background-color: #FF4500   ;
+    background-color: #912A27   ;
     color: white;
     cursor: pointer;
 }
 
 .excluir {
-    background-color: #696969  ;
+    background-color: #393939  ;
 }
 
 .menuInferior {
@@ -161,7 +175,8 @@ form {
     z-index: 1000;
     bottom: 0;
     width: 390px;
-    background-color: rgb(32, 23, 23) ;
+    background-color: #393939 ;
+    border-radius: 15px;
 }
 
 .menuInferior a {
