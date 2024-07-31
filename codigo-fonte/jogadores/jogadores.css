@@ -171,7 +171,7 @@ form {
     background-color: #393939  ;
 }
 
-.menuInferior {
+.menu-inferior {
     display: flex;
     position: fixed;
     z-index: 1000;
@@ -179,33 +179,40 @@ form {
     width: 390px;
     background-color: #393939 ;
     border-radius: 15px;
+    justify-content: space-between;
 }
 
-.menuInferior a {
+.menu-inferior a {
     display: block;
     text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: bolder;
+    font-family: 'poppins';
+    font-weight: bold;
     font-size: 8px;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.menuInferior p {
+.menu-inferior p {
     margin-top: 1px;
     margin-bottom: 0;
 }
 
-.menuInferior img {
-    width: 28px;
-    height: 28px;
+.menu-inferior img {
+    width: 38px;
+    height: 38px;
     
 
 }
 
-.menuInferior div {
-    margin: 7px;
-    margin-right: 27px;
+.menu-inferior div {
+    margin: 8px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.link-jogadores {
+    background-color:#912A27;
 }
 
 
