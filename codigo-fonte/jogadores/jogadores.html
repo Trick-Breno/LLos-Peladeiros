@@ -17,17 +17,17 @@
     <title>jogadores</title>
 </head>
 <body>
+    <header>
+        <div class="cabecalho">
+            <img src="../imagens/logo-llos-peladeiros.png" alt="">
+        </div>
+    </header>
     <div class="container">
-        <header>
-            <div class="cabecalho">
-                <img src="../imagens/logo-llos-peladeiros.png" alt="">
-            </div>
-        </header>
-
-        <div class="content">
-            <main>
-                <h1>Jogadores</h1>
+        <main>
+            <div class="bloco-geral">
+                
                 <div class="novoJogadorForm">
+                    <h1>Jogadores</h1>
                     <form action="/submit" method="post">
                         <div class="tipo-jogador">
                             <input type="radio" id="linha" name="tipo-jogador" checked>
@@ -35,172 +35,116 @@
                             <input type="radio" id="goleiro" name="tipo-jogador">
                             <label for="goleiro" class="tipo-jogador-label">Goleiro</label>
                         </div>
-                        <input type="text" id="input-nome" placeholder="Digite o nome do jogador" required>
+                        <input type="text" id="input-nome" placeholder="Digite o nome do jogador (até 8 caracteres)" maxlength="8" required>
                         <button type="submit" class="botaoadcJogador">Adicionar jogador</button>
                     </form>
-
                 </div>
+                <div class="bloco-lista">
+                    <div class="lista-linha">
+                        <h2>Linha</h2>
+                        <div class="jogador">
 
-                <div class="jogadores-container">
-                    <h2>Linha</h2>
-                    <div class="jogador">
+                            <div class="nomeJogador">
+                                <p>Jogador1</p>
+                            </div>
 
-                        <div class="nomeJogador">
-                            <p>Jogador 1 </p>
+                            <div class="botoes">
+                                <button id="convocar" class="convocar">Convocar</button>
+
+                                <button id="exluir" class="excluir">Excluir </button>
+                            </div>
                         </div>
+                        <div class="jogador">
+                            
+                            <div class="nomeJogador">
+                                <p>Jogador2</p>
+                            </div>
 
-                        <div class="botoes">
-                            <button id="convocar" class="convocar">Convocar</button>
+                            <div class="botoes">
+                                <button id="convocar" class="convocar">Convocar</button>
 
-                            <button id="exluir" class="excluir">Excluir </button>
+                                <button id="exluir" class="excluir">Excluir </button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="jogador">
-                        
-                        <div class="nomeJogador">
-                            <p>Jogador 2 </p>
+                        <div class="jogador">
+                            
+                            <div class="nomeJogador">
+                                <p>Jogador3</p>
+                            </div>
+
+                            <div class="botoes">
+                                <button id="convocar" class="convocar">Convocar</button>
+
+                                <button id="exluir" class="excluir">Excluir </button>
+                            </div>
                         </div>
+                        <div class="jogador">
+                            
+                            <div class="nomeJogador">
+                                <p>Jogador4</p>
+                            </div>
 
-                        <div class="botoes">
-                            <button id="convocar" class="convocar">Convocar</button>
+                            <div class="botoes">
+                                <button id="convocar" class="convocar">Convocar</button>
 
-                            <button id="exluir" class="excluir">Excluir </button>
+                                <button id="exluir" class="excluir">Excluir </button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="jogador">
-                        
-                        <div class="nomeJogador">
-                            <p>Jogador 3</p>
-                        </div>
+                        <div class="jogador">
+                            
+                            <div class="nomeJogador">
+                                <p>Jogador5</p>
+                            </div>
 
-                        <div class="botoes">
-                            <button id="convocar" class="convocar">Convocar</button>
+                            <div class="botoes">
+                                <button id="convocar" class="convocar">Convocar</button>
 
-                            <button id="exluir" class="excluir">Excluir </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="jogadores-container">
-                    <h2>Goleiros</h2>
-                    <div class="jogador">
-
-                        <div class="nomeJogador">
-                            <p>Jogador 1 </p>
-                        </div>
-
-                        <div class="botoes">
-                            <button id="convocar" class="convocar">Convocar</button>
-
-                            <button id="exluir" class="excluir">Excluir </button>
-                        </div>
-                    </div>
-                    <div class="jogador">
-
-                        <div class="nomeJogador">
-                            <p>Jogador 2 </p>
-                        </div>
-
-                        <div class="botoes">
-                            <button id="convocar" class="convocar">Convocar</button>
-
-                            <button id="exluir" class="excluir">Excluir </button>
+                                <button id="exluir" class="excluir">Excluir </button>
+                            </div>
                         </div>
                     </div>
-                    <div class="jogador">
+                    <div class="lista-goleiros">
+                        <h2>Goleiros</h2>
+                        <div class="jogador">
 
-                        <div class="nomeJogador">
-                            <p>Jogador 3 </p>
+                            <div class="nomeJogador">
+                                <p>Jogador1</p>
+                            </div>
+
+                            <div class="botoes">
+                                <button id="convocar" class="convocar">Convocar</button>
+
+                                <button id="exluir" class="excluir">Excluir </button>
+                            </div>
                         </div>
+                        <div class="jogador">
 
-                        <div class="botoes">
-                            <button id="convocar" class="convocar">Convocar</button>
+                            <div class="nomeJogador">
+                                <p>Jogador2</p>
+                            </div>
 
-                            <button id="exluir" class="excluir">Excluir </button>
+                            <div class="botoes">
+                                <button id="convocar" class="convocar">Convocar</button>
+
+                                <button id="exluir" class="excluir">Excluir </button>
+                            </div>
                         </div>
-                    </div>
+                        <div class="jogador">
 
-                </div>
-                <div class="jogadores-container">
-                    <h2>Goleiros</h2>
-                    <div class="jogador">
+                            <div class="nomeJogador">
+                                <p>Jogador3</p>
+                            </div>
 
-                        <div class="nomeJogador">
-                            <p>Jogador 1 </p>
-                        </div>
+                            <div class="botoes">
+                                <button id="convocar" class="convocar">Convocar</button>
 
-                        <div class="botoes">
-                            <button id="convocar" class="convocar">Convocar</button>
-
-                            <button id="exluir" class="excluir">Excluir </button>
-                        </div>
-                    </div>
-                    <div class="jogador">
-
-                        <div class="nomeJogador">
-                            <p>Jogador 2 </p>
-                        </div>
-
-                        <div class="botoes">
-                            <button id="convocar" class="convocar">Convocar</button>
-
-                            <button id="exluir" class="excluir">Excluir </button>
-                        </div>
-                    </div>
-                    <div class="jogador">
-
-                        <div class="nomeJogador">
-                            <p>Jogador 3 </p>
-                        </div>
-
-                        <div class="botoes">
-                            <button id="convocar" class="convocar">Convocar</button>
-
-                            <button id="exluir" class="excluir">Excluir </button>
+                                <button id="exluir" class="excluir">Excluir </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="jogadores-container">
-                    <h2>Goleiros</h2>
-                    <div class="jogador">
-
-                        <div class="nomeJogador">
-                            <p>Jogador 1 </p>
-                        </div>
-
-                        <div class="botoes">
-                            <button id="convocar" class="convocar">Convocar</button>
-
-                            <button id="exluir" class="excluir">Excluir </button>
-                        </div>
-                    </div>
-                    <div class="jogador">
-
-                        <div class="nomeJogador">
-                            <p>Jogador 2 </p>
-                        </div>
-
-                        <div class="botoes">
-                            <button id="convocar" class="convocar">Convocar</button>
-
-                            <button id="exluir" class="excluir">Excluir </button>
-                        </div>
-                    </div>
-                    <div class="jogador">
-
-                        <div class="nomeJogador">
-                            <p>Jogador 3 </p>
-                        </div>
-
-                        <div class="botoes">
-                            <button id="convocar" class="convocar">Convocar</button>
-
-                            <button id="exluir" class="excluir">Excluir </button>
-                        </div>
-                    </div>
-                </div>
-
-            </main>
-        </div>
+            </div>
+        </main>
         <nav>
             <div class="menu-inferior">
 
