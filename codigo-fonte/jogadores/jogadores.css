@@ -184,7 +184,7 @@ form {
     justify-content: space-between;
 }
 
-.menu-inferior a {
+/*.menu-inferior a {
     display: block;
     text-align: center;
     font-family: 'poppins';
@@ -192,25 +192,32 @@ form {
     font-size: 8px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-}
+}*/
 
 .menu-inferior p  {
     margin-top: 1px;
     margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*text-align: center;*/
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
 }
 
 .menu-inferior img {
     width: 38px;
     height: 38px;
-    
-
 }
 
 .menu-inferior div {
     margin: 8px;
     border-radius: 10px;
     padding: 5px;
-
 }
 
 .link-jogadores {
@@ -219,12 +226,7 @@ form {
 
 
 @media (min-width: 672px) {
-    .botaoadcJogador, .tipo-jogador-label,
-    #input-nome::placeholder,
-    .lista-linha h2, .lista-goleiros h2,.nomeJogador p{
-        font-size: 1.6em;
 
-    }
     .novoJogadorForm h1 {
         align-self: flex-start;
         font-size: 2em;
@@ -244,11 +246,6 @@ form {
  }
 
  @media (min-width: 900px) {
-    .botaoadcJogador, .tipo-jogador-label,
-    #input-nome::placeholder,
-    .lista-linha h2, .lista-goleiros h2,.nomeJogador p{
-        font-size: 1.6em;
-    }
     #input-nome {
         padding: 18px;
     }
