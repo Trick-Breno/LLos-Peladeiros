@@ -46,15 +46,13 @@ body {
     margin: 15px ;
 }
 
-.novoJogadorForm {
+.novoJogadorForm, form {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 672px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
 
 .tipo-jogador {
     display: flex;
@@ -70,8 +68,10 @@ form {
 .tipo-jogador-label {
     flex: 1;
     text-align: center;
-    font-family: 'poppins';
+    font-family: "poppins", sans-serif;
     font-size: 16px;
+    font-weight: bold;
+
     padding: 6px;
     cursor: pointer;
     color: #fff;
@@ -108,12 +108,15 @@ form {
     background-color: #912A27   ;
     color: white;
     font-size: 18px;
-    font-weight: bolder;
+    font-weight: bold;
     border: none;
     border-radius: 15px;
     cursor: pointer;
 }
 
+.bloco-lista {
+    max-width: 672px;
+}
 .lista-linha, .lista-goleiros {
     margin: 30px 15px 0px;
     border-radius: 15px;
@@ -147,7 +150,7 @@ form {
     font-family: "poppins", sans-serif;
     color: white;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bold;
     margin: 10px;
     margin-left: 10px;
 }
@@ -158,7 +161,7 @@ form {
 }
 
 .convocar, .excluir {
-    font-weight: 600;
+    font-weight: bold;
     border-radius: 10px;
     margin: 5px 10px 5px 0px;
     font-family: "poppins", sans-serif;
@@ -183,16 +186,6 @@ form {
     border-radius: 15px;
     justify-content: space-between;
 }
-
-/*.menu-inferior a {
-    display: block;
-    text-align: center;
-    font-family: 'poppins';
-    font-weight: bold;
-    font-size: 8px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}*/
 
 .menu-inferior p  {
     margin-top: 1px;
@@ -227,21 +220,24 @@ form {
 
 @media (min-width: 672px) {
 
-    .novoJogadorForm h1 {
-        align-self: flex-start;
-        font-size: 2em;
-
-    }
     .bloco-geral {
         align-items: center;
+        
     }
+
+    .novoJogadorForm h1 {
+        align-self: flex-start;
+    }
+
+
     .bloco-lista {
         display: flex;
         align-items: start;
-        justify-content: center;
+        width: 100%;
     }
-    form {
-        width: 672px;
+
+    .lista-linha, .lista-goleiros {
+        width: 100%;
     }
  }
 
